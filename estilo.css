@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-gap: 10px;
+    border-radius: ;
+}
+.item{
+    border: 2px solid black;
+    height: 250px;
+    background-image: url(/img/foto4.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    }
+
+    /* footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        width: 100%;
+        padding: 15px;
+    }
+    .redes{
+        letter-spacing: 10px;
+        margin-top: 10px;
+    }
+    .redes a{
+
+        color: white;
+    }
+
+    footer h3{
+        text-align: center;
+    }
+    @media (min-width:700px) {
+
+    } */
+
+    footer{
+        padding:15px ;
+        background-color: aqua;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .art{
+        
+    }
